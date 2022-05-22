@@ -1,0 +1,29 @@
+body {
+    background-color: rgb(16, 16, 18);
+}
+
+.board-container {
+    width: 92vmin;
+    height: 92vmin;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(26, 26, 30);
+    border-radius: 3%;
+}
+
+.board-grid {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    width: 90vmin;
+    height: 90vmin;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(26, 26, 30);
+    border-radius: 3%;
+    gap: 1vmin;
+}
